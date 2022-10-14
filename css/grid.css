@@ -1,3 +1,8 @@
+/* Nếu item không chia theo ý thì thêm box-sizing: border-box vào :D */
+*{
+    box-sizing: border-box;
+}
+
 .grid {
     width: 100%;
     display: block;
