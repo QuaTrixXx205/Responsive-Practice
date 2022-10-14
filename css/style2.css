@@ -92,5 +92,21 @@ body {
 
 /* Tablet: width >= 740px and width < 1024px */
 @media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
-    
+    .main__product{
+        flex-direction: column-reverse;
+    }
+
+    .main__product-info{
+        width: 100%;
+        text-align:justify;
+    }
+
+    .main__product-img{
+        width: 100%;
+        padding-top: 30%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        margin: 0 auto;
+    }
 }
