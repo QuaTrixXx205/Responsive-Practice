@@ -1,1 +1,1 @@
-# Responsive Web for mobile and iPad
+# Responsive Web for mobile, iPad, and PC
