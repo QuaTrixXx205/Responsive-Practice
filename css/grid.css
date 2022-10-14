@@ -28,6 +28,8 @@
         - c - mobile
         - m - tablet
         - l - PC
+
+    Flex: flex_grow flex_shrink flex_basis (Shorthand method)    
 */
 
 .col{
