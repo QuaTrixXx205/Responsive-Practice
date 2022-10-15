@@ -1,18 +1,3 @@
-/* Nếu item không chia theo ý thì thêm box-sizing: border-box vào :D */
-/* 
-    Column: .col
-    Prefix class:   
-        - c - mobile
-        - m - tablet
-        - l - PC
-    flex: flex_grow flex_shrink flex_basis (Shorthand method)    
-*/
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
 .grid {
     width: 100%;
     display: block;
@@ -293,8 +278,8 @@
 /* PC medium resolution > */
 @media (min-width: 1113px) {
     .row {
-        margin-left: -6px;
-        margin-right: -6px;
+        margin-left: -12px;
+        margin-right: -12px;
     }
 
     .row.sm-gutter {
@@ -303,8 +288,8 @@
     }
 
     .col {
-        padding-left: 6px;
-        padding-right: 6px;
+        padding-left: 12px;
+        padding-right: 12px;
     }
 
     .row.sm-gutter .col {

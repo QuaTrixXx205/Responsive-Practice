@@ -1,0 +1,23 @@
+/* Remember to reset CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.container{
+    height: 2000px;
+}
+.item{
+    background-color: orange;
+    color: white;
+    min-height: 300px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 300px;
+    margin-top: 50px;
+}
