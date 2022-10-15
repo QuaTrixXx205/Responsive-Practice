@@ -36,6 +36,7 @@
     padding-right: 4px;
 }
 
+/* prefix c for mobile ([numberOfScreens] / 12 * 100) */
 .c-0{
     display: none;
 }
@@ -138,6 +139,7 @@
         display: block;
     }
 
+    /* prefix m for tablet and low resolution screen PCs  ([numberOfScreens] / 12 * 100) */
     .m-1{
         flex: 0 0 8.33333%;
         max-width: 8.33333%;
@@ -231,6 +233,7 @@
         display: block;
     }
 
+    /* prefix l for medium PCs and above ([numberOfScreens] / 12 * 100) */
     .l-1{
         flex: 0 0 8.33333%;
         max-width: 8.33333%;
