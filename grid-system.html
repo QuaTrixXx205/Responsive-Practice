@@ -11,8 +11,9 @@
             margin: 0;
         }
         .container{
-            /* background-color: orange; */
+            background-color: rgb(248, 217, 160);
             text-align: center;
+            height: 100vh;
         }
 
         .course-item{
@@ -36,12 +37,21 @@
         .category{
             text-align: left;
         }
+
+        .my-column{
+            background-color: orange;
+            height: 260px;
+        }
         
+        .my-column h1{
+            line-height: 260px;
+            margin: 0;
+        }
     </style>
 </head>
 <body>
     <div class="grid wide container">
-        <div class="row">
+        <!-- <div class="row">
             <div class="col l-3 m-0 c-0">
                 <div class="category">
                     <ul>
@@ -72,6 +82,14 @@
                             <h1>course 3</h1>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div> -->
+
+        <div class="row">
+            <div class="col l-6">
+                <div class="my-column">
+                    <h1>Column-1</h1>
                 </div>
             </div>
         </div>
